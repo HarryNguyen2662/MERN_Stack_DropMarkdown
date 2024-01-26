@@ -8,8 +8,8 @@ function App() {
     <ErrorBoundary errorElement={<DefaultError />}>
       <ApiClientProvider>
         <ThemeProvider>
-            <ApplicationRouter />
-          
+          <ApplicationRouter />
+
         </ThemeProvider>
       </ApiClientProvider>
     </ErrorBoundary>

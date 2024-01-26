@@ -43,9 +43,9 @@ export const Aside = ({ handleToggle }: IProps) => {
           <button
             type="button"
             onClick={createADocument}
-            className="inline-flex items-center justify-center w-full py-2 text-white border border-transparent rounded-md shadow-sm bg-blue-500 mt-7 hover:bg-blue-600 transition-all animate__animated animate__bounceInRight">
+            className="inline-flex items-center justify-center w-full py-2 text-white border border-transparent rounded-md shadow-sm bg-blue-500 mt-7 hover:bg-blue-600 transition-all animate__animated animate__bounceInRight rounded-full">
             <PlusIcon className="w-4 h-4 md:-ml-1 md:mr-1 animate__animated animate__flip" />
-            <span className="text-sm leading-5 font-medium animate__animated animate__fadeInLeft">
+            <span className="trelative inline-flex items-center justify-center p-2 overflow-hidden text-white rounded-full shadow-md outline-none focus:outline-none">
               New Document
             </span>
           </button>

@@ -39,7 +39,7 @@ export const UserDocument = () => {
       >
         <div className="flex gap-4 justify-between min-w-full px-4 py-3 dark:bg-secondary-black bg-primary-white" style={{ borderBottom: '2px solid #e0e0e0', borderTopLeftRadius: '10px', borderTopRightRadius: '10px' }}>
           <h2 className="text-sm leading-4 text-default dark:text-tertiary-gray text-secondary-gray">
-            MARKDOWN
+            Drop Mark Down
           </h2>
           <EyeIcon
             onClick={() => setPreview()}

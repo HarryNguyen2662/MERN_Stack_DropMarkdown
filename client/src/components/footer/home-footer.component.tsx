@@ -22,8 +22,8 @@ const social = [
   },
   {
     name: "Twitter",
-    hrf: "https://twitter.com/TravCodez",
-    icoen: ({ className, ariaHidden }: IIconProps) => (
+    href: "https://twitter.com/TravCodez",
+    icon: ({ className, ariaHidden }: IIconProps) => (
       <svg
         fill="currentColor"
         viewBox="0 0 24 24"
